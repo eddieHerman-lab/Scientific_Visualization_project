@@ -3,7 +3,7 @@
 > **Plataforma Multi-Agente de Síntese Científica, Verificação Simbólica Determinística (SymPy & Pint) e Simulações Interativas em HTML5 Canvas 2D com Rigor Epistemológico.**
 
 ---
-gif animado https://github.com/eddieHerman-lab/Scientific_Visualization_project/blob/main/lorenz_attractor_demo.gif
+![Teste/gif animado atratores de lorentz](https://github.com/eddieHerman-lab/Scientific_Visualization_project/blob/main/lorenz_attractor_demo.gif)
 ##  Sumário Executivo
 
 O **Scientific Visualization Multi-Agent Studio** é uma plataforma full-stack orientada por Inteligência Artificial que decompõe conceitos matemáticos, físicos, biológicos, processos estocásticos e notas técnicas inéditas em simulações interativas a 60 FPS em HTML5 Canvas 2D.
