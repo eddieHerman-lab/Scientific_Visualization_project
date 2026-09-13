@@ -1,10 +1,10 @@
-# 🔬 Scientific Visualization Multi-Agent Studio
+#  Scientific Visualization Multi-Agent Studio
 
 > **Plataforma Multi-Agente de Síntese Científica, Verificação Simbólica Determinística (SymPy & Pint) e Simulações Interativas em HTML5 Canvas 2D com Rigor Epistemológico.**
 
 ---
 
-## 📋 Sumário Executivo
+##  Sumário Executivo
 
 O **Scientific Visualization Multi-Agent Studio** é uma plataforma full-stack orientada por Inteligência Artificial que decompõe conceitos matemáticos, físicos, biológicos, processos estocásticos e notas técnicas inéditas em simulações interativas a 60 FPS em HTML5 Canvas 2D.
 
@@ -12,7 +12,7 @@ Diferente de geradores de código monolíticos sujeitos a alucinações conceitu
 
 ---
 
-## 🏛️ Arquitetura dos Agentes & Camada Simbólica
+##  Arquitetura dos Agentes & Camada Simbólica
 
 ```
                    [ Prompt do Usuário / Documento Técnico ]
@@ -64,7 +64,7 @@ Diferente de geradores de código monolíticos sujeitos a alucinações conceitu
 
 ---
 
-## 🔍 O Veredito de Verificação em 3 Estados
+##  O Veredito de Verificação em 3 Estados
 
 Para garantir honestidade epistemológica e impedir que o sistema declare falsos sucessos, a validação é classificada estritamente em um de 3 estados:
 
@@ -74,11 +74,11 @@ Para garantir honestidade epistemológica e impedir que o sistema declare falsos
 | **`contradiction`** | **Contradição detectada** | $\frac{dE}{dt} \neq 0$ on-shell, discrepância $\Delta = H_{\text{real}} - E_{\text{declarada}}$, ou erro dimensional. | Fidelity Score vermelho/baixo, alerta de violação, disparo automático do loop de autocura. |
 | **`unverifiable`** | **Não verificável automaticamente** | Sistemas puramente estocásticos, discretos, ou sem formulação analítica fechada. | **Fidelity Score cinza/não-computado (`—`), checklist como "Não avaliado on-shell", e as 6 regras marcadas explicitamente como "Não avaliado (Camada simbólica não executada)"**. |
 
-> ⚠️ **Princípio Anti-Alucinação**: Quando a verificação analítica não pode ser executada numericamente, a plataforma **proíbe terminantemente** a exibição de scores ou checkmarks verdes fictícios.
+>  **Princípio Anti-Alucinação**: Quando a verificação analítica não pode ser executada numericamente, a plataforma **proíbe terminantemente** a exibição de scores ou checkmarks verdes fictícios.
 
 ---
 
-## ⚖️ As 6 Regras de Rigor Epistemológico
+##  As 6 Regras de Rigor Epistemológico
 
 1. **Consistência Dedutiva**: Nenhuma equação é introduzida sem que possa ser formalmente derivada das premissas anteriores.
 2. **Rigor Markoviano**: Processos com dependência de memória/histórico não são denominados Markovianos sem explicitar o espaço de estado estendido ($S \times \mathcal{H}_t$).
@@ -92,7 +92,7 @@ Para garantir honestidade epistemológica e impedir que o sistema declare falsos
 
 ---
 
-## 🧪 Caso de Teste Reproduzível: Pêndulo Quártico Anarmônico
+##  Caso de Teste Reproduzível: Pêndulo Quártico Anarmônico
 
 Um teste clássico de estresse epistemológico implementado no sistema:
 
@@ -105,7 +105,7 @@ Um teste clássico de estresse epistemológico implementado no sistema:
 
 ---
 
-## 🛠️ Stack Tecnológico
+##  Stack Tecnológico
 
 - **Frontend**: React 19, TypeScript, Tailwind CSS v4, Motion (framer-motion), KaTeX, Lucide Icons.
 - **Backend / Orquestrador**: Node.js, Express, ESBuild, TSX.
@@ -115,7 +115,7 @@ Um teste clássico de estresse epistemológico implementado no sistema:
 
 ---
 
-## 🚀 Como Executar Localmente
+##  Como Executar Localmente
 
 ### 1. Pré-requisitos
 - **Node.js 20+** e **npm**.
@@ -149,7 +149,7 @@ Acesse a aplicação em `http://localhost:3000`.
 
 ---
 
-## 🌐 Onde e Como Colocar em Produção
+##  Onde e Como Colocar em Produção
 
 Como a aplicação é um híbrido **Node.js (Express/Vite) + Python 3 (SymPy & Pint)** compilado em um serviço único, o método padrão de produção é via **Container Docker**.
 
