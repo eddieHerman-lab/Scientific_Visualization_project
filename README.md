@@ -233,15 +233,24 @@ gcloud run deploy scientific-studio \
 #### Com Docker Compose:
 ```yaml
 version: '3.8'
+
 services:
-  app:
+  scientific-studio:
     build: .
+    deploy:
+      resources:
+        limits:
+          memory: 4096M
+          cpus: '2.0'
+
+    container_name: scientific_studio_app
+    restart: unless-stopped
     ports:
       - "3000:3000"
     environment:
       - NODE_ENV=production
+      - PORT=3000
       - GEMINI_API_KEY=${GEMINI_API_KEY}
-    restart: always
 ```
 Execute:
 ```bash
