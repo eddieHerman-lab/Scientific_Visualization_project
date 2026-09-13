@@ -1,0 +1,31 @@
+# Variáveis de ambiente (CRÍTICO: nunca commitar a chave da API)
+.env
+.env.local
+.env.*.local
+
+# Dependências instaladas
+node_modules/
+
+# Build/output compilado
+dist/
+build/
+
+# Cache do Python (scripts/symbolic_verifier.py gera isso ao rodar)
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
+
+# Configuração de IDE (PyCharm, VSCode)
+.idea/
+.vscode/
+
+# Cobertura de testes, se houver
+coverage/

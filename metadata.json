@@ -1,0 +1,6 @@
+{
+  "name": "Scientific Visualization Multi-Agent Studio",
+  "description": "Multi-agent AI pipeline (Lead Scientist, Scene Director, Graphics Engineer, QA Auditor) generating interactive scientific Canvas simulations with formal invariants and self-healing verification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
